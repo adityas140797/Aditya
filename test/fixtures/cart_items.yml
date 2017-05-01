@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Itemid: 
+  Totalcost: 1
+  Quantity: 1
+
+two:
+  Itemid: 
+  Totalcost: 1
+  Quantity: 1

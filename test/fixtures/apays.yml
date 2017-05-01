@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  creditcardtype: MyString
+  totalcost: 1
+  accountholdername: MyString
+  expirydate: 2017-04-14
+  cvv: 1
+
+two:
+  creditcardtype: MyString
+  totalcost: 1
+  accountholdername: MyString
+  expirydate: 2017-04-14
+  cvv: 1
