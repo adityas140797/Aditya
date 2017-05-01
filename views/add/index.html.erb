@@ -1,0 +1,39 @@
+<center>
+
+<h1> <font color="darkblue">Add a product</font> </h1>
+
+<div>
+
+<%= form_for @c, url:add_index_path do |f| %>
+  
+			<%= f.label :description %>
+			</br>
+			<%= f.text_field :description, :class => "form-control input-sm chat-input" %>
+			</br>
+			
+			<%= f.label :price %>
+			</br>
+			<%= f.text_field :price, :class => "form-control input-sm chat-input" %>
+	 	    </br>
+			
+			<div class="form-group">
+            <label for="exampleInputFile">Image</label>
+            <input type="file" id="exampleInputFile">
+            <p class="help-block">Choose image of your product here.</p>
+            </div>
+		
+            <div class="wrapper">
+            <span class="group-btn"> 
+			
+               <%= f.submit "Add", :class => "btn btn-primary btn-md" %>
+			   
+			   <a href="http://localhost:3000" class="btn btn-success"> Back to Home </a>
+			   
+			</span>
+			</div>
+			
+			<% end %>
+			
+			</form>
+
+</center>

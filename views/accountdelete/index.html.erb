@@ -1,0 +1,37 @@
+<center>
+
+<h1> <font color="darkblue">Enter your Account details again to make it more secure</font> </h1>
+
+<h4> <font color="purple">(Go back to home once you have deleted your account)</font> </h4>
+
+<div>
+
+<%= form_for @login, url:accountdelete_index_path do |f| %>
+  
+			<%= f.label :firstname %>
+			</br>
+			<%= f.text_field :firstname, :class => "form-control input-sm chat-input" %>
+			</br>
+			
+			<%= f.label :password %>
+			</br>
+			<%= f.password_field :password, :class => "form-control input-sm chat-input" %>
+	 	    </br>
+			
+            <div class="wrapper">
+            <span class="group-btn"> 
+			
+               <%= f.submit "Delete", :class => "btn btn-primary btn-md" %>
+			   
+			   <a href="http://localhost:3000/welcome/index" class="btn btn-success"> Back to Home </a>
+			   
+			   <a href="http://localhost:3000/welcome1/index" class="btn btn-danger"> Cancel </a>
+			   
+			</span>
+			</div>
+			
+			<% end %>
+			
+			</form>
+
+</center>
