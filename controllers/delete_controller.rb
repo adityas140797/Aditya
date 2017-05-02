@@ -1,7 +1,6 @@
 class DeleteController < ApplicationController
 def index
 @c=C.new
-@c1=C.find_by_price(4)
 end
 
 def new
